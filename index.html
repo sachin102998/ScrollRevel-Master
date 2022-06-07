@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">TechScroll</a>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="showcase"> 
+        <div class="container1">
+            <div class="showcase-image">
+                <img src="./images/image1.jpg" alt="">
+            </div>
+            <div class="showcase-text">
+                <h1>Hands-free help from the Google Assistant</h1>
+                <p>Google Home voice-activated speaker.consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <a href="#"  class="btn1">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="container2">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"</p>
+            <p>-John Doe</p>
+        </div>
+    </div>
+    <div class="knowmore">
+        <div class="container3">
+            <div class="knowmore-image">
+                <img src="./images/image2.png" alt="">
+            </div>
+            <div class="knowmore-text">
+                <h1>Get To Know Google Home</h1>
+                <p>Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat </p>
+                <a href="#" class="btn1">Read More</a>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="container4">
+            <div class="box-1">
+                <h3>Info Block One </h3>
+                <p>Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            </div>
+            <div class="box-2">
+                <h3>Info Block Two</h3>
+                <p>Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            </div>
+        </div>
+    </div>
+    <div class="ask">
+        <div class="container5">
+            <form action="#">
+                <label for="">Name:</label>
+                <input type="text" placeholder="Enter Name">
+                <label for="">Email:</label>
+                <input type="email" placeholder="Enter Email">
+                <label for="">Message:</label>
+                <input type="text" placeholder="Enter message">
+               <button type="submit">Submit</button>
+            
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>TechScroll Copyright © 2017</p>
+    </div>
+   
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+window.sr = ScrollReveal();
+sr.reveal('.navbar',{
+    duration:2000,
+    origin:'bottom'
+});
+
+sr.reveal('img',{
+    duration:2000,
+    origin:'top',
+    distance:'300px'
+})
+sr.reveal('.showcase-text',{
+    duration:2000,
+    origin:'right',
+    distance:'300px'
+})
+sr.reveal('.knowmore-text',{
+    duration:2000,
+    origin:'right',
+    distance:'300px'
+})
+sr.reveal('.box-1',{
+    duration:2000,
+    origin:'left',
+    distance:'300px'
+})
+sr.reveal('.box-2',{
+    duration:2000,
+    origin:'right',
+    distance:'300px'
+})
+
+</script>
+
+
+</body>
+</html>
